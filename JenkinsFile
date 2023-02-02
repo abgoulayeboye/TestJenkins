@@ -17,5 +17,9 @@ pipeline {
                 echo 'Deploy App'
             }
         }
+        stage('Hello') {
+            steps {
+                echo 'Hello Word'
+            }
     }
 }
